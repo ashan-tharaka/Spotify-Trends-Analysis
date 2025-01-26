@@ -3,7 +3,7 @@ import pandas as pd
 
 def display():
     # Load dataset
-    spotify_data = pd.read_csv("D:\DataEngProjects\DataEngPractiseExercises\DataBeginnersProjects\spotify trends analytics\dataset.csv")
+    spotify_data = pd.read_csv("dataset.csv")
 
     # Sidebar for filters
     st.sidebar.header("Filters")
